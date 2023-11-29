@@ -2,57 +2,40 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Image captioning con datos de Flickr 8k Dataset
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+El objetivo principal de este proyecto es desarrollar una herramienta avanzada de Image Captioning, que utilice tecnologías de aprendizaje profundo para analizar y describir automáticamente imágenes. 
 
 ## Alcance del Proyecto
+El proyecto abarcará el diseño y desarrollo de una herramienta basada en Image Captioning en base a los datos Flickr 8K. Para esto se utilizarán métodos de Deep Learning para generar descripciones textuales de una imagen.
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+Para este proyecto de Image Captioning, utilizaremos el conjunto de datos Flickr 8K, una colección disponible en Kaggle que consta de 8.000 imágenes seleccionadas de la plataforma Flickr. Cada imagen en este conjunto viene acompañada de cinco descripciones. Estas descripciones cubren una amplia gama de escenas, objetos y situaciones. 
+
+El resultado esperado de este proyecto es el desarrollo de un modelo eficiente de Image Captioning capaz de generar descripciones para una amplia variedad de imágenes. 
+
+El éxito del proyecto se medirá de acuerdo a la capacidad del modelo para generalizar, es decir, funcionar bien con imágenes que no formaron parte del conjunto de datos de entrenamiento.
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+Utilizaré CNN para extraer características de las imágenes y LSTM para el proceso de generación de texto.
 
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
-
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+| Entendimiento del negocio y carga de datos | 1 semana
+| Preprocesamiento, análisis exploratorio | 1 semana 
+| Modelamiento y extracción de características | 1 semana
+| Despliegue y evaluación | 1 semana
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
-
-## Presupuesto
-
-[Descripción del presupuesto asignado al proyecto]
-
-## Stakeholders
-
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
-
-## Aprobaciones
-
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+- Mariana Beatriz Cruz Chú
