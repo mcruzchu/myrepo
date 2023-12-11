@@ -2,24 +2,24 @@
 
 ## Resumen Ejecutivo
 
-En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
+El modelo final se seleccionó en base a su respuesta a las métricas BLEU score y METEOR score.
 
 ## Descripción del Problema
 
-En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
+El proyecto se centró en el desarrollo de un modelo de deep learning que genere automáticamente descripciones textuales para imágenes (Image Captioning).
 
 ## Descripción del Modelo
 
-En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+El modelo final combina una Red Neuronal Convolucional (CNN) para la extracción de características visuales y LSTM para el texto. 
 
 ## Evaluación del Modelo
 
-En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+La evaluación del modelo se basó en métricas conocidas para la generación de texto (BLEU y METEOR scores). Estas métricas mostraron que el modelo 1 superó al modelo 2 (simplificado).
 
 ## Conclusiones y Recomendaciones
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+El modelo final demuestra ser una herramienta eficaz para la generación de descripciones de imágenes pero se recomienda explorar arquitecturas más complejas y conjuntos de datos más amplios para futuras mejoras.
 
 ## Referencias
 
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
+https://www.kaggle.com/datasets/adityajn105/flickr8k
