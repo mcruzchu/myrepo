@@ -4,36 +4,38 @@ Este documento contiene los resultados del modelo baseline.
 
 ## Descripción del modelo
 
-El modelo baseline es el primer modelo construido y se utiliza para establecer una línea base para el rendimiento de los modelos posteriores.
+Se utiliza una CNN para la extracción de características visuales de imágenes y una LSTM para la generación de descripciones textuales.
 
 ## Variables de entrada
 
-Lista de las variables de entrada utilizadas en el modelo.
+Imágenes y descripciones
 
 ## Variable objetivo
 
-Nombre de la variable objetivo utilizada en el modelo.
+Nueva descripción de la imagen indicada.
 
 ## Evaluación del modelo
 
 ### Métricas de evaluación
 
-Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
+BLEU Score: Mide la precisión de las secuencias de palabras generadas.
+
+METEOR Score: Evalúa la calidad de la traducción considerando sinónimos y variaciones gramaticales.
 
 ### Resultados de evaluación
 
-Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
+BLEU score para el primer modelo: 0.022740541385519286
+
+METEOR score para el primer modelo: 0.15366109893445237
 
 ## Análisis de los resultados
 
-Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
+El modelo baseline ha mostrado que se puede utilizar para generar descripciones, aunque con margen de mejora (las métricas aunque son mejores que el segundo modelo, aún dan valores bajos).
 
 ## Conclusiones
 
-Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+El modelo baseline (modelo 1) genera de forma eficaz descripciones básicas de la imagen, pero requiere mejoras.
 
 ## Referencias
 
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
-
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
+https://www.kaggle.com/datasets/adityajn105/flickr8k
