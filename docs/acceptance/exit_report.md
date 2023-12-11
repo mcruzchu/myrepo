@@ -2,31 +2,24 @@
 
 ## Resumen Ejecutivo
 
-Este informe describe los resultados del proyecto de machine learning y presenta los principales logros y lecciones aprendidas durante el proceso.
+Este proyecto ha desarrollado el código para la implementación y comparación de 2 modelos para la tarea Image Captioning.
 
 ## Resultados del proyecto
 
-- Resumen de los entregables y logros alcanzados en cada etapa del proyecto.
-- Evaluación del modelo final y comparación con el modelo base.
-- Descripción de los resultados y su relevancia para el negocio.
+Durante el proyecto, se han implementado 2 modelos, basados en CNN y LSTM, para la tarea de Image Captioning. Para esto se utilizó una muestra de la colección de Flickr 8K. Se calcularon las métricas Blue score y Meteor score para la evaluación de los modelos, mostrando el primer modelo mejores resultados.
 
 ## Lecciones aprendidas
 
-- Identificación de los principales desafíos y obstáculos encontrados durante el proyecto.
-- Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo.
-- Recomendaciones para futuros proyectos de machine learning.
+Aunque el modelo genera descripciones relacionadas a las imágenes que se le proporciona, puede mejorar en su desempeño. Para futuras actualizaciones, se recomienda utilizar la totalidad de la colección de datos disponibles y no sólo una muestra.
 
 ## Impacto del proyecto
 
-- Descripción del impacto del modelo en el negocio o en la industria.
-- Identificación de las áreas de mejora y oportunidades de desarrollo futuras.
+Image captioning potencialmente puede ser usado para mejorar las interfaces de usuario de aplicaciones basadas en imágenes, aumentando la accesibilidad de contenidos visuales y enriquecer las capacidades analíticas de datos visuales. El presente proyecto permite tener una prueba de cómo se pueden implementar técnicas de deep learning con esta finalidad.
 
 ## Conclusiones
 
-- Resumen de los resultados y principales logros del proyecto.
-- Conclusiones finales y recomendaciones para futuros proyectos.
+El proyecto demostró que los modelos de deep learning pueden generar descripciones de imágenes. Los resultados muestran que la metodología empleada, aunque puede mejorarse, es válida para la tarea de Image Captioning.
 
 ## Agradecimientos
 
-- Agradecimientos al equipo de trabajo y a los colaboradores que hicieron posible este proyecto.
-- Agradecimientos especiales a los patrocinadores y financiadores del proyecto.
+Quiero expresar mi agradecimiento a los profesores del curso por la enseñanza de este fascinante tema y por compartir su experiencia sobre las diferentes metodologías y herramientas actuales para el desarrollo de aplicaciones con Machine Learning.
