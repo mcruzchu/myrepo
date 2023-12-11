@@ -6,14 +6,17 @@ Image captioning con datos de Flickr 8k Dataset
 
 ## Objetivo del Proyecto
 
-El objetivo principal de este proyecto es desarrollar una herramienta avanzada de Image Captioning, que utilice tecnologías de aprendizaje profundo para analizar y describir automáticamente imágenes. 
+El objetivo principal de este proyecto es desarrollar una herramienta basada en Image Captioning, que utilice tecnologías de aprendizaje profundo para analizar y describir automáticamente imágenes. 
 
 ## Alcance del Proyecto
 El proyecto abarcará el diseño y desarrollo de una herramienta basada en Image Captioning en base a los datos Flickr 8K. Para esto se utilizarán métodos de Deep Learning para generar descripciones textuales de una imagen.
 
 ### Incluye:
 
-Para este proyecto de Image Captioning, utilizaremos el conjunto de datos Flickr 8K, una colección disponible en Kaggle que consta de 8.000 imágenes seleccionadas de la plataforma Flickr. Cada imagen en este conjunto viene acompañada de cinco descripciones. Estas descripciones cubren una amplia gama de escenas, objetos y situaciones. 
+Para este proyecto de Image Captioning, utilizaremos el conjunto de datos Flickr 8K, una colección disponible en Kaggle que consta de 8.000 imágenes seleccionadas de la plataforma Flickr. El enlace del dataset es el siguiente:
+https://www.kaggle.com/datasets/adityajn105/flickr8k
+
+Cada imagen en este conjunto viene acompañada de cinco descripciones (captions.txt). Estas descripciones cubren una amplia gama de escenas, objetos y situaciones. 
 
 El resultado esperado de este proyecto es el desarrollo de un modelo eficiente de Image Captioning capaz de generar descripciones para una amplia variedad de imágenes. 
 
