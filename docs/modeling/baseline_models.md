@@ -25,8 +25,10 @@ METEOR Score: Evalúa la calidad de la traducción considerando sinónimos y var
 ### Resultados de evaluación
 
 BLEU score para el primer modelo: 0.022740541385519286
+BLEU score para el modelo simplificado: 0.009111110063993637
 
 METEOR score para el primer modelo: 0.15366109893445237
+METEOR score para el modelo simplificado: 0.12801399010458697
 
 ## Análisis de los resultados
 
